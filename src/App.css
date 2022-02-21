@@ -1,0 +1,36 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    margin-top: 10px;
+}
+
+.app-searchform{
+    margin-top: 18px;
+} 
+
+.app-input{
+    font-family: sans-serif;
+    min-width: 160px;
+    max-width: 300vh;
+    text-align: center;
+    height: 24px;
+    outline: none;
+
+}
+
+.App .submit-button{
+    color: #fff;
+    margin-left: 5px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #02aff0;
+    cursor: pointer;
+
+}
